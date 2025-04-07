@@ -1,4 +1,4 @@
-// let sports = ["hockey", "soccer", "basketball"];
+ // let sports = ["hockey", "soccer", "basketball"];
 
 // // add "golf" to the end
 // sports.push("golf");
@@ -171,3 +171,51 @@
 // lessThan50.reverse();
 // console.log(numbers);
 // console.log(lessThan50);
+
+// let groceries = ["eggs", "bread", "rice", "meat"];
+// groceries.push("tea");
+// groceries.push("water");
+// groceries.unshift("milk");
+
+// letfirstLetter = groceries.shift();
+// groceries.pop();
+// console.log(groceries);
+// console.log(letfirstLetter);
+
+// let alphabets = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
+// let removedAlphabets = alphabets.splice(3, 3, "Removed", "Removed", "Removed");
+// let removedAlphabets2 = alphabets.splice(7, 1);
+// console.log(alphabets);
+// console.log(removedAlphabets);
+// console.log(removedAlphabets2);
+
+// let num20 = [];
+
+// for (let i = 0; i < 20; i++) {
+//   let rand = Math.floor(Math.random() * 50 + 1);
+//   num20.push(rand);
+// }
+// console.log(num20);
+// let greaterThan30 = num20.filter((num) => num > 30);
+// if (num20.includes(42)) {
+//   console.log("Found 42!");
+// } else {
+//   console.log("No 42 in list");
+// }
+
+// console.log(greaterThan30);
+
+// let numbers10 = ["-2", "-3", "5", "3", "2", "-1", "8", "-6", "6", "-2"];
+// console.log(numbers10);
+// numbers10.slice();
+// numbers10.sort();
+// console.log(numbers10);
+// numbers10.slice();
+// numbers10.sort();
+// numbers10.reverse();
+// console.log(numbers10);
+// numbers10.splice(5, 0, "10");
+// console.log(numbers10);
+// numbers10.sort((b, a) => a - b);
+// console.log(numbers10);
+
